@@ -12,6 +12,11 @@
 		110BAECC1F37511100F49273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110BAECA1F37511100F49273 /* Main.storyboard */; };
 		110BAECE1F37511100F49273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110BAECD1F37511100F49273 /* Assets.xcassets */; };
 		110BAED11F37511100F49273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110BAECF1F37511100F49273 /* LaunchScreen.storyboard */; };
+		110BAEE01F37566E00F49273 /* UIButtonBarAction@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110BAEDD1F37566E00F49273 /* UIButtonBarAction@2x.png */; };
+		110BAEE11F37566E00F49273 /* UIButtonBarAction.png in Resources */ = {isa = PBXBuildFile; fileRef = 110BAEDE1F37566E00F49273 /* UIButtonBarAction.png */; };
+		110BAEE21F37566E00F49273 /* UIButtonBarAction@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110BAEDF1F37566E00F49273 /* UIButtonBarAction@3x.png */; };
+		114E47A91F39E07D0015E369 /* ios-share-button-social.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 114E47A81F39E07D0015E369 /* ios-share-button-social.jpg */; };
+		114E47AD1F3B8D680015E369 /* AlignedImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114E47AC1F3B8D680015E369 /* AlignedImageButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		110BAECD1F37511100F49273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110BAED01F37511100F49273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110BAED21F37511100F49273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110BAEDD1F37566E00F49273 /* UIButtonBarAction@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarAction@2x.png"; sourceTree = "<group>"; };
+		110BAEDE1F37566E00F49273 /* UIButtonBarAction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarAction.png; sourceTree = "<group>"; };
+		110BAEDF1F37566E00F49273 /* UIButtonBarAction@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarAction@3x.png"; sourceTree = "<group>"; };
+		114E47A81F39E07D0015E369 /* ios-share-button-social.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ios-share-button-social.jpg"; sourceTree = "<group>"; };
+		114E47AC1F3B8D680015E369 /* AlignedImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedImageButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		110BAEC51F37511100F49273 /* iOSActionIconUIButton */ = {
 			isa = PBXGroup;
 			children = (
+				114E47AC1F3B8D680015E369 /* AlignedImageButton.swift */,
 				110BAEC61F37511100F49273 /* AppDelegate.swift */,
 				110BAEC81F37511100F49273 /* ViewController.swift */,
 				110BAECA1F37511100F49273 /* Main.storyboard */,
 				110BAECD1F37511100F49273 /* Assets.xcassets */,
 				110BAECF1F37511100F49273 /* LaunchScreen.storyboard */,
 				110BAED21F37511100F49273 /* Info.plist */,
+				110BAEDC1F37565D00F49273 /* images */,
 			);
 			path = iOSActionIconUIButton;
+			sourceTree = "<group>";
+		};
+		110BAEDC1F37565D00F49273 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				114E47A81F39E07D0015E369 /* ios-share-button-social.jpg */,
+				110BAEDD1F37566E00F49273 /* UIButtonBarAction@2x.png */,
+				110BAEDE1F37566E00F49273 /* UIButtonBarAction.png */,
+				110BAEDF1F37566E00F49273 /* UIButtonBarAction@3x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +149,11 @@
 			files = (
 				110BAED11F37511100F49273 /* LaunchScreen.storyboard in Resources */,
 				110BAECE1F37511100F49273 /* Assets.xcassets in Resources */,
+				110BAEE11F37566E00F49273 /* UIButtonBarAction.png in Resources */,
+				110BAEE21F37566E00F49273 /* UIButtonBarAction@3x.png in Resources */,
+				110BAEE01F37566E00F49273 /* UIButtonBarAction@2x.png in Resources */,
 				110BAECC1F37511100F49273 /* Main.storyboard in Resources */,
+				114E47A91F39E07D0015E369 /* ios-share-button-social.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114E47AD1F3B8D680015E369 /* AlignedImageButton.swift in Sources */,
 				110BAEC91F37511100F49273 /* ViewController.swift in Sources */,
 				110BAEC71F37511100F49273 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +332,7 @@
 				110BAED71F37511100F49273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
